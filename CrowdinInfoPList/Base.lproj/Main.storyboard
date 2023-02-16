@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Vx-Wo-ML5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wti-pa-zju">
+            <objects>
+                <viewController id="6Vx-Wo-ML5" customClass="ViewController" customModule="CrowdinPOC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q3U-H1-eM8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lN-ub-tPI">
+                                <rect key="frame" x="20" y="64" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DmB-MA-5u3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQV-Xx-x1I">
+                                <rect key="frame" x="107" y="431" width="200" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8AT-qI-btM"/>
+                                    <constraint firstAttribute="height" constant="44" id="Dj0-v3-Ulh"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ARN-eO-fuv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2lN-ub-tPI" firstAttribute="leading" secondItem="ARN-eO-fuv" secondAttribute="leading" constant="20" id="1ht-gv-trX"/>
+                            <constraint firstItem="ARN-eO-fuv" firstAttribute="trailing" secondItem="2lN-ub-tPI" secondAttribute="trailing" constant="20" id="8Nn-Ar-NEa"/>
+                            <constraint firstItem="hQV-Xx-x1I" firstAttribute="centerY" secondItem="ARN-eO-fuv" secondAttribute="centerY" id="Jy3-cf-8wi"/>
+                            <constraint firstItem="hQV-Xx-x1I" firstAttribute="centerX" secondItem="ARN-eO-fuv" secondAttribute="centerX" id="TU6-rr-512"/>
+                            <constraint firstItem="2lN-ub-tPI" firstAttribute="top" secondItem="ARN-eO-fuv" secondAttribute="top" constant="20" id="nXP-Wz-0Mo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="hQV-Xx-x1I" id="vMn-WU-NTT"/>
+                        <outlet property="titleLabel" destination="2lN-ub-tPI" id="pzH-2a-Wp7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CIk-pK-uo6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-51" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
