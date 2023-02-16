@@ -6,5 +6,5 @@
   
 */
 
-"app.title" = "Crowdin POC へようこそ。";
-"login.signup.title" = "ログイン";
+"app.title" = "Welcome Crowdin POC.";
+"login.signup.title" = "Login";
