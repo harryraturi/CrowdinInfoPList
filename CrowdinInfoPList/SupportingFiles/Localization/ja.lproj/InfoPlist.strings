@@ -1,5 +1,3 @@
+"NSLocationWhenInUseUsageDescription" = "場所の説明。";
 
-"NSLocationWhenInUseUsageDescription" = "Location description.";
-
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "Location always.";
-
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "常に位置情報を入力してください。";
